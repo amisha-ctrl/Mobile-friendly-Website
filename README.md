@@ -25,11 +25,10 @@ It was originally designed as a desktop-first layout and then enhanced to be mob
 
 
 ## 🚀 Getting Started
-
 1. **Clone or Download** this repository:
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/amisha-ctrl/Mobile-friendly-Website.git)
+git clone https://github.com/amisha-ctrl/Mobile-friendly-Website.git
 2. Open index.html in your browser to view the site.
 
 ## 🌐 Live Demo
 If using GitHub Pages, the live demo will be available at:
-[https://your-username.github.io/your-repo-name/](https://amisha-ctrl.github.io/Mobile-friendly-Website/)
+https://amisha-ctrl.github.io/Mobile-friendly-Website/
