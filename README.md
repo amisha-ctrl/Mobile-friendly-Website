@@ -25,6 +25,6 @@ It was originally designed as a desktop-first layout and then enhanced to be mob
 
 ## 🚀 Getting Started
 
-1. **Clone or Download** this repository:
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/amisha-ctrl/Mobile-friendly-Website.git)
+**Clone or Download** this repository:
+```bash
+git clone[https://github.com/your-username/your-repo-name.git
