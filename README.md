@@ -32,4 +32,4 @@ git clone [https://github.com/your-username/your-repo-name.git](https://github.c
 
 ## 🌐 Live Demo
 If using GitHub Pages, the live demo will be available at:
-https://your-username.github.io/your-repo-name/
+[https://your-username.github.io/your-repo-name/](https://amisha-ctrl.github.io/Mobile-friendly-Website/)
