@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Example</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo"><h2>My Website</h2>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+        <ul id="nav-links" class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas exercitationem ipsum culpa quasi cupiditate quia architecto veniam animi error, facere, libero blanditiis nulla sed quas doloremque nam, reprehenderit soluta illum?</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="column">
+            <h2>About Us</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores eum nesciunt quasi rerum, deserunt magnam impedit architecto in veniam illo alias quaerat, possimus corporis adipisci sed, error reiciendis non?
+                Iste possimus inventore placeat commodi, praesentium quae velit harum iure ipsum sequi deserunt dolorem sapiente quidem tempore magnam, delectus amet corporis repellat voluptatum vitae! Voluptates repellat voluptatem reprehenderit obcaecati maiores?
+            </p>
+        </div>
+        <div class="column">
+            <h2>Our Work</h2>
+            <img src="images/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg" alt="Sample Work">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>
+                    We are a creative web design agency focused on delivering high-quality, responsive websites.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@mywebsite.com</p>
+                <p>Phone: +91 12345 67890</p>
+                <div class="social-icons">
+                    <a href="#">👍</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📷</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 MyWebsite. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("bar").addEventListener("click", function(){
+            const nav_link = document.getElementById("nav-links");
+            if(nav_link.style.display==="flex"){
+                nav_link.style.display="none";
+            }
+            else{
+                nav_link.style.display="flex";
+            }
+        })
+    </script>
+</body>
+</html>
